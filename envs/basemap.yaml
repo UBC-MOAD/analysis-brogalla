@@ -1,0 +1,11 @@
+# conda env description for pkgs & envs discussion
+
+name: basemap
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - basemap
+  - proj4

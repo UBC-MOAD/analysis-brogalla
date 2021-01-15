@@ -1,0 +1,15 @@
+# conda env description for pkgs & envs discussion
+
+name: standard2
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - basemap
+  - cmocean
+  - pip
