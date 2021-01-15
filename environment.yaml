@@ -1,0 +1,17 @@
+# conda env description for pkgs & envs discussion
+
+name: rutabagga
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - numpy
+  - xarray
+  - matplotlib
+  - pip
+
+  - pip:
+    - angles
+ 
