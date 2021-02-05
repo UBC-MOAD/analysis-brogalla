@@ -1,0 +1,22 @@
+# conda env description for pkgs & envs discussion
+
+name: julab
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - basemap
+  - proj4
+  - netCDF4
+  - jupyterlab
+  - xarray
+  - dask
+  - gsw
+  - cartopy
+  - cmocean
+  - seaborn
+  - pandas
+  - matplolib==3.2
+  - basemap-data-hires
