@@ -1,12 +1,11 @@
-# conda env description for pkgs & envs discussion
-
-name: julab
+name: parcels-julab
 
 channels:
   - conda-forge
 
 dependencies:
   - python=3.6
+  - matplotlib=3.2
   - basemap
   - proj4
   - netCDF4
@@ -18,7 +17,7 @@ dependencies:
   - cmocean
   - seaborn
   - pandas
-  - matplolib==3.2
   - basemap-data-hires
   - joblib
-  - sklearn
+  - parcels
+  - ffmpeg
