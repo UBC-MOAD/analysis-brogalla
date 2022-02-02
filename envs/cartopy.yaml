@@ -1,0 +1,15 @@
+# conda env description for pkgs & envs discussion
+
+name: cartopy
+
+channels:
+  - conda-forge
+
+dependencies:
+  - netCDF4
+  - jupyterlab
+  - xarray
+  - cartopy=0.18
+  - cmocean
+  - seaborn
+  - pandas
